@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8306b579e4bf8304f9d8a20f97072b1d, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  generation:
+    minRooms: 10
+    maxRooms: 15
+    amountOfAdjacentRoomsToConnect: 3
+    minRoomWidth: 8
+    maxRoomWidth: 12
+    minRoomHeight: 8
+    maxRoomHeight: 12
+    minBossRoomWidth: 10
+    maxBossRoomWidth: 12
+    minBossRoomHeight: 10
+    maxBossRoomHeight: 12
+    areaWidth: 100
+    areaHeight: 200
+    minDistanceBetweenRooms: 1
+    walls:
+    - gameObject: {fileID: 4725644372996588504, guid: 149a4fa0a96e08148aab0a113d1ccef5, type: 3}
+      name: Wall
+    outerCorners:
+    - gameObject: {fileID: 696436432277967871, guid: 881baa43cd1560949b04dfde26893747, type: 3}
+      name: Outer Corner
+    innerCorners: []
+    deleteInnerCorners: 0
+    uCorners:
+    - gameObject: {fileID: 3197583449942763538, guid: aef390dd402b4da4dbc932f7685a0125, type: 3}
+      name: Square
+    squareCorners:
+    - gameObject: {fileID: 3746928169460061138, guid: 8fd16f9add3b6504a96a92177e5a8142, type: 3}
+      name: Square Corner
+    doors: []
+    doorsDisplacements: []
+    flooring:
+    - gameObject: {fileID: 8761019777689142071, guid: 0234e9a5ed8e17845afb71ada7e4676d, type: 3}
+      name: Floor
+    player: {fileID: 5319449941225248857, guid: 33e887a6d2f6c7142a62049a62ad93f9, type: 3}
+    minEnemiesPerRoom: 1
+    maxEnemiesPerRoom: 3
+    enemies:
+    - gameObject: {fileID: 6682697962083837351, guid: 2ec63ddb75ace564394c6173842f86f7, type: 3}
+      name: Capups
+    bosses: []
+    breakables: []
+    staticObjects:
+    - gameObject: {fileID: 2157335988112527113, guid: c0b6670604b282847a0f26cf98f36820, type: 3}
+      name: shkaf
+    - gameObject: {fileID: 178811535428721102, guid: f8c0297a8d99e2747baeb5697c8ecb66, type: 3}
+      name: coloma
+    - gameObject: {fileID: 5030231515337382016, guid: 83b081522f15df64cb4f8b5416eccdec, type: 3}
+      name: flag
+    - gameObject: {fileID: 4302944737786620945, guid: d429c8a2280208c43ace747d82fa1864, type: 3}
+      name: caulodronananaa
+    - gameObject: {fileID: 4377933626515690895, guid: a1834b6441f5f964186d094e8fd881e5, type: 3}
+      name: bochka
+    - gameObject: {fileID: 8014036971784306386, guid: c65426a375c90574a95eaaf4840e9481, type: 3}
+      name: stol
+    - gameObject: {fileID: 5129442236857904303, guid: e37d55d9adae8724c9dcf1dff5b67578, type: 3}
+      name: korobka
+    - gameObject: {fileID: 907737577407192764, guid: 3c94a574020d3de429d0c295b3a83db4, type: 3}
+      name: styl
+    wallObjects:
+    - gameObject: {fileID: 510141063021254879, guid: 7a937ee5bc40ba142a195e3a41fa7258, type: 3}
+      name: Stena
+    wallObjConsequitiveDistance: 0
+    wallObjDisplacements:
+    - {x: 0, y: 0, z: 0}
+    cornerObjectsRate: 0
+    destroyablesRate: 0
+    middleObjects: []
+    middleObjectsRate: 0
